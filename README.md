@@ -1,4 +1,3 @@
-
 ## 🎵 KMusic Player
 
 A Spotify-inspired music player web app built for learning frontend development.
@@ -13,7 +12,7 @@ A Spotify-inspired music player web app built for learning frontend development.
 
 ## 🚀 Live Demo
 
-https://krishna-2013.github.io/amazon-clone-ui/
+https://krishna-2013.github.io/KMusic-Player/
 
 ## 🛠️ Tech Stack
 * HTML5
@@ -27,7 +26,10 @@ https://krishna-2013.github.io/amazon-clone-ui/
 
 ## 📸 Preview
 
-(Add screenshots of your player here)
+<img width="1918" height="858" alt="Screenshot 2026-03-25 200444" src="https://github.com/user-attachments/assets/2537dfab-32ed-48ac-87cb-e429cb2d3bf9" />
+<img width="1919" height="859" alt="image" src="https://github.com/user-attachments/assets/d1f0e8e8-d096-440d-8dd2-3f1b757b5872" />
+
+
 
 ## 🔥 Future Improvements
 - Dynamic playlist system

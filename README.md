@@ -25,7 +25,7 @@ JavaScript (Vanilla JS)
 KMusic Player is a personal project inspired by the design of Spotify.
 It helps practice UI/UX, DOM manipulation, and interactive web development.
 
-📸 Preview
+## 📸 Preview
 
 (Add screenshots of your player here)
 

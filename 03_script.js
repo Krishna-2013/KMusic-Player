@@ -3,7 +3,7 @@ console.log("hello");
 //Initialize the Variables
 let songIndex = 0;
 let audioEl = new Audio(
-    "/songs/02_Hindi SONG/party song/01_Abhi Toh Party Shuru Hui Hai Khoobsurat 320 Kbps.mp3"
+    "Songs/02_Hindi SONG/party song/01_Abhi Toh Party Shuru Hui Hai Khoobsurat 320 Kbps.mp3"
 );
 let masterPlay = document.getElementById("Play");
 let songPlayBtns = document.getElementsByClassName("timeStampPlay");
@@ -16,7 +16,7 @@ let songs = [
     {
         songname: "Abhi Toh Party Shuru Hui Hai",
         filepath:
-            "/Songs/02_Hindi SONG/party song/01_Abhi Toh Party Shuru Hui Hai Khoobsurat 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/01_Abhi Toh Party Shuru Hui Hai Khoobsurat 320 Kbps.mp3",
         coverPath: "",
         duration: "02:59",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -24,7 +24,7 @@ let songs = [
     {
         songname: "Swag se karange sabka swagat",
         filepath:
-            "/Songs/02_Hindi SONG/party song/02_Swag se karange sabka swagat.mp3",
+            "Songs/02_Hindi SONG/party song/02_Swag se karange sabka swagat.mp3",
         coverPath: "",
         duration: "03:53",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -32,7 +32,7 @@ let songs = [
     {
         songname: "Aankh Marey",
         filepath:
-            "/Songs/02_Hindi SONG/party song/03_Aankh Marey Simmba 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/03_Aankh Marey Simmba 128 Kbps.mp3",
         coverPath: "",
         duration: "03:32",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -40,7 +40,7 @@ let songs = [
     {
         songname: "Bom Diggy Diggy",
         filepath:
-            "/Songs/02_Hindi SONG/party song/04_Bom Diggy Diggy Sonu Ke Titu Ki Sweety 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/04_Bom Diggy Diggy Sonu Ke Titu Ki Sweety 320 Kbps.mp3",
         coverPath: "",
         duration: "03:58",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -48,7 +48,7 @@ let songs = [
     {
         songname: "Burj Khalifa",
         filepath:
-            "/Songs/02_Hindi SONG/party song/05_Burjkhalifa Laxmii 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/05_Burjkhalifa Laxmii 320 Kbps.mp3",
         coverPath: "",
         duration: "03:14",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -56,7 +56,7 @@ let songs = [
     {
         songname: "Chikni Chameli",
         filepath:
-            "/Songs/02_Hindi SONG/party song/06_Chikni Chameli(KoshalWorld.Com).mp3",
+            "Songs/02_Hindi SONG/party song/06_Chikni Chameli(KoshalWorld.Com).mp3",
         coverPath: "",
         duration: "06:04",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -64,7 +64,7 @@ let songs = [
     {
         songname: "Kar Gayi Chull",
         filepath:
-            "/Songs/02_Hindi SONG/party song/07_Kar Gayi Chull Kapoor And Sons 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/07_Kar Gayi Chull Kapoor And Sons 128 Kbps.mp3",
         coverPath: "",
         duration: "03:07",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -72,7 +72,7 @@ let songs = [
     {
         songname: "Kashish",
         filepath:
-            "/Songs/02_Hindi SONG/party song/08_Kashish - Omkar Singh (pagalall.com).mp3",
+            "Songs/02_Hindi SONG/party song/08_Kashish - Omkar Singh (pagalall.com).mp3",
         coverPath: "",
         duration: "03:13",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -80,7 +80,7 @@ let songs = [
     {
         songname: "Coca Cola - Luka Chuppi",
         filepath:
-            "/Songs/02_Hindi SONG/party song/09_Coca Cola Luka Chuppi 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/09_Coca Cola Luka Chuppi 128 Kbps.mp3",
         coverPath: "",
         duration: "02:59",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -88,7 +88,7 @@ let songs = [
     {
         songname: "Nashe Si Chadh Gayi",
         filepath:
-            "/Songs/02_Hindi SONG/party song/10_Nashe Si Chadh Gayi - Befikre 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/10_Nashe Si Chadh Gayi - Befikre 320 Kbps.mp3",
         coverPath: "",
         duration: "03:57",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -96,7 +96,7 @@ let songs = [
     {
         songname: "Tauba Tauba - Bad Newz",
         filepath:
-            "/Songs/02_Hindi SONG/party song/11_Tauba Tauba - Bad Newz 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/11_Tauba Tauba - Bad Newz 320 Kbps.mp3",
         coverPath: "",
         duration: "03:27",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -104,7 +104,7 @@ let songs = [
     {
         songname: "Sweety Slowly Slowly",
         filepath:
-            "/Songs/02_Hindi SONG/party song/12_Sweety Slowly Slowly Sonu Ke Titu Ki Sweety 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/12_Sweety Slowly Slowly Sonu Ke Titu Ki Sweety 320 Kbps.mp3",
         coverPath: "",
         duration: "03:07",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -112,7 +112,7 @@ let songs = [
     {
         songname: "Sauda Khara Khara",
         filepath:
-            "/Songs/02_Hindi SONG/party song/13_Sauda Khara Khara - Sukhbir (Mr-Punjab.Com)-128kb.mp3",
+            "Songs/02_Hindi SONG/party song/13_Sauda Khara Khara - Sukhbir (Mr-Punjab.Com)-128kb.mp3",
         coverPath: "",
         duration: "04:16",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -120,7 +120,7 @@ let songs = [
     {
         songname: "O Saki Saki",
         filepath:
-            "/Songs/02_Hindi SONG/party song/14_O Saki Saki Batla House 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/14_O Saki Saki Batla House 320 Kbps.mp3",
         coverPath: "",
         duration: "03:11",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -128,7 +128,7 @@ let songs = [
     {
         songname: "LAAL PARI",
         filepath:
-            "/Songs/02_Hindi SONG/party song/15_LAAL PARI.m4a",
+            "Songs/02_Hindi SONG/party song/15_LAAL PARI.m4a",
         coverPath: "",
         duration: "03:04",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -136,7 +136,7 @@ let songs = [
     {
         songname: "Galti Se Mistake",
         filepath:
-            "/Songs/02_Hindi SONG/party song/16_Galti Se Mistake Jagga Jasoos 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/16_Galti Se Mistake Jagga Jasoos 320 Kbps.mp3",
         coverPath: "",
         duration: "03:23",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -144,7 +144,7 @@ let songs = [
     {
         songname: "Cheez Badi",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Cheez Badi Machine 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Cheez Badi Machine 320 Kbps.mp3",
         coverPath: "",
         duration: "03:42",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -152,7 +152,7 @@ let songs = [
     {
         songname: "Gallan Goodiyaan",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Gallan Goodiyaan Dil Dhadakne Do (pagalall.com).mp3",
+            "Songs/02_Hindi SONG/party song/Gallan Goodiyaan Dil Dhadakne Do (pagalall.com).mp3",
         coverPath: "",
         duration: "04:56",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -160,7 +160,7 @@ let songs = [
     {
         songname: "Garmi (feat. Varun Dhawan)",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Garmi (feat. Varun Dhawan) Street Dancer 3d 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Garmi (feat. Varun Dhawan) Street Dancer 3d 320 Kbps.mp3",
         coverPath: "",
         duration: "03:02",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -168,7 +168,7 @@ let songs = [
     {
         songname: "Ghungroo",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Ghungroo War 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Ghungroo War 320 Kbps.mp3",
         coverPath: "",
         duration: "05:03",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -176,7 +176,7 @@ let songs = [
     {
         songname: "Hai Jamalo",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Hai Jamalo.mp3",
+            "Songs/02_Hindi SONG/party song/Hai Jamalo.mp3",
         coverPath: "",
         duration: "02:07",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -184,7 +184,7 @@ let songs = [
     {
         songname: "Aaj Ki Raat",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Aaj Ki Raat (From _Stree 2_) - Sachin-Jigar.mp3",
+            "Songs/02_Hindi SONG/party song/Aaj Ki Raat (From _Stree 2_) - Sachin-Jigar.mp3",
         coverPath: "",
         duration: "02:35",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -192,7 +192,7 @@ let songs = [
     {
         songname: "Kala Chashma",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Kala Chasma.mp3",
+            "Songs/02_Hindi SONG/party song/Kala Chasma.mp3",
         coverPath: "",
         duration: "02:53",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -200,7 +200,7 @@ let songs = [
     {
         songname: "Besharam Rang - Pathaan",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Besharam Rang Pathaan 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Besharam Rang Pathaan 128 Kbps.mp3",
         coverPath: "",
         duration: "04:18",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -208,7 +208,7 @@ let songs = [
     {
         songname: "Kesariya - Brahmastra",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Kesariya Brahmastra 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Kesariya Brahmastra 320 Kbps.mp3",
         coverPath: "",
         duration: "04:28",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -216,7 +216,7 @@ let songs = [
     {
         songname: "London Thumakda - Queen",
         filepath:
-            "/Songs/02_Hindi SONG/party song/London Thumakda Queen 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/London Thumakda Queen 128 Kbps.mp3",
         coverPath: "",
         duration: "03:50",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -224,7 +224,7 @@ let songs = [
     {
         songname: "Lut Gaye",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Lut Gaye Jubin Nautiyal 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Lut Gaye Jubin Nautiyal 128 Kbps.mp3",
         coverPath: "",
         duration: "03:48",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -232,7 +232,7 @@ let songs = [
     {
         songname: "Malhari",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Malhari Bajirao Mastani 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Malhari Bajirao Mastani 320 Kbps.mp3",
         coverPath: "",
         duration: "04:04",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -240,7 +240,7 @@ let songs = [
     {
         songname: "Nach meri jan",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Nach meri jan.mp3",
+            "Songs/02_Hindi SONG/party song/Nach meri jan.mp3",
         coverPath: "",
         duration: "04:52",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -248,7 +248,7 @@ let songs = [
     {
         songname: "Nagada Sang Dhol",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Nagada Sang Dhol Goliyon Ki Raasleela Ram Leela 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Nagada Sang Dhol Goliyon Ki Raasleela Ram Leela 320 Kbps.mp3",
         coverPath: "",
         duration: "04:33",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -256,7 +256,7 @@ let songs = [
     {
         songname: "Najaa",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Najaa.mp3",
+            "Songs/02_Hindi SONG/party song/Najaa.mp3",
         coverPath: "",
         duration: "03:01",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -264,7 +264,7 @@ let songs = [
     {
         songname: "NASHA",
         filepath:
-            "/Songs/02_Hindi SONG/party song/NASHA .mp3",
+            "Songs/02_Hindi SONG/party song/NASHA .mp3",
         coverPath: "",
         duration: "02:56",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -272,7 +272,7 @@ let songs = [
     {
         songname: "Passori",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Passori.mp3",
+            "Songs/02_Hindi SONG/party song/Passori.mp3",
         coverPath: "",
         duration: "04:36",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -280,7 +280,7 @@ let songs = [
     {
         songname: "Radhe Radhe - title",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Radhe Radhe - title.mp4",
+            "Songs/02_Hindi SONG/party song/Radhe Radhe - title.mp4",
         coverPath: "",
         duration: "03:02",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -288,7 +288,7 @@ let songs = [
     {
         songname: "Radhe Radhe",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Radhe Radhe.mp4",
+            "Songs/02_Hindi SONG/party song/Radhe Radhe.mp4",
         coverPath: "",
         duration: "03:17",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -296,7 +296,7 @@ let songs = [
     {
         songname: "Saree Ke Fall Sa R...",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Saree Ke Fall Sa R... Rajkumar 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Saree Ke Fall Sa R... Rajkumar 320 Kbps.mp3",
         coverPath: "",
         duration: "03:56",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -304,7 +304,7 @@ let songs = [
     {
         songname: "Shaky",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Shaky Sanju Rathod, Isha Malviya (pagalall.com).mp3",
+            "Songs/02_Hindi SONG/party song/Shaky Sanju Rathod, Isha Malviya (pagalall.com).mp3",
         coverPath: "",
         duration: "02:55",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -312,7 +312,7 @@ let songs = [
     {
         songname: "Tamma Tamma",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Tamma Tamma Again- Badrinath Ki Dulhania 128 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Tamma Tamma Again- Badrinath Ki Dulhania 128 Kbps.mp3",
         coverPath: "",
         duration: "03:19",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -320,7 +320,7 @@ let songs = [
     {
         songname: "Tere Vaaste",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Tere Vaaste Zara Hatke Zara Bachke 320 Kbps.mp3",
+            "Songs/02_Hindi SONG/party song/Tere Vaaste Zara Hatke Zara Bachke 320 Kbps.mp3",
         coverPath: "",
         duration: "03:09",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
@@ -328,7 +328,7 @@ let songs = [
     {
         songname: "Vaaste",
         filepath:
-            "/Songs/02_Hindi SONG/party song/Vaaste .mp3",
+            "Songs/02_Hindi SONG/party song/Vaaste .mp3",
         coverPath: "",
         duration: "05:06",
         icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',

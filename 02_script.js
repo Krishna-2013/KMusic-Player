@@ -2,7 +2,7 @@ console.log("hello");
 
 //Initialize the Variables
 let songIndex = 0;
-let audioEl = new Audio("/Songs/01_English song/Believer.mp3");
+let audioEl = new Audio("Songs/01_English song/Believer.mp3");
 let masterPlay = document.getElementById("Play");
 let songPlayBtns = document.getElementsByClassName("timeStampPlay");
 let myProgressBar = document.getElementById("myProgressBar");
@@ -13,49 +13,49 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songname: "Believer",
-    filepath: "/Songs/01_English song/Believer.mp3",
+    filepath: "Songs/01_English song/Believer.mp3",
     coverPath: "",
     duration: "03:24",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Die With A Smile",
-    filepath: "/Songs/01_English song/Die With A Smile-(SambalpuriStar.In).mp3",
+    filepath: "Songs/01_English song/Die With A Smile-(SambalpuriStar.In).mp3",
     coverPath: "",
     duration: "04:11",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Unstoppable",
-    filepath: "/Songs/01_English song/Unstoppable.mp3",
+    filepath: "Songs/01_English song/Unstoppable.mp3",
     coverPath: "",
     duration: "03:35",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Arcade",
-    filepath: "/Songs/01_English song/Arcade_-_Duncan_Lawrence_(mp3.pm).mp3",
+    filepath: "Songs/01_English song/Arcade_-_Duncan_Lawrence_(mp3.pm).mp3",
     coverPath: "",
     duration: "03:03",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "I Wanna Be Yours",
-    filepath: "/Songs/01_English song/arctic_monkey_-_i_wanna_be_yours_(mp3.pm).mp3",
+    filepath: "Songs/01_English song/arctic_monkey_-_i_wanna_be_yours_(mp3.pm).mp3",
     coverPath: "",
     duration: "03:00",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Imagine_Dragons (The Boys)",
-    filepath: "/Songs/01_English song/Imagine_Dragons_-_Bones_(mp3.pm).mp3",
+    filepath: "Songs/01_English song/Imagine_Dragons_-_Bones_(mp3.pm).mp3",
     coverPath: "",
     duration: "02:45",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Let Me Down Slowly",
-    filepath: "/Songs/01_English song/Let Me Down Slowly English Song SLMIX.mp3",
+    filepath: "Songs/01_English song/Let Me Down Slowly English Song SLMIX.mp3",
     coverPath: "",
     duration: "02:48",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',

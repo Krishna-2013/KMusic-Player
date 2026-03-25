@@ -2,7 +2,7 @@ console.log("hello");
 
 //Initialize the Variables
 let songIndex = 0;
-let audioEl = new Audio("/Songs/03_Bengali SONG/10 e 10.mp3");
+let audioEl = new Audio("Songs/03_Bengali SONG/10 e 10.mp3");
 let masterPlay = document.getElementById("Play");
 let songPlayBtns = document.getElementsByClassName("timeStampPlay");
 let myProgressBar = document.getElementById("myProgressBar");
@@ -13,98 +13,98 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songname: "10 e 10",
-    filepath: "/Songs/03_Bengali SONG/10 e 10.mp3",
+    filepath: "Songs/03_Bengali SONG/10 e 10.mp3",
     coverPath: "",
     duration: "03:11",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Ami Je Tomar",
-    filepath: "/Songs/03_Bengali SONG/Ami Je Tomar Bhool Bhulaiyaa 2 320 Kbps.mp3",
+    filepath: "Songs/03_Bengali SONG/Ami Je Tomar Bhool Bhulaiyaa 2 320 Kbps.mp3",
     coverPath: "",
     duration: "03:18",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Bagichay_Bulbuli_Tui",
-    filepath: "/Songs/03_Bengali SONG/Bagichay_Bulbuli_Tui.mp3",
+    filepath: "Songs/03_Bengali SONG/Bagichay_Bulbuli_Tui.mp3",
     coverPath: "",
     duration: "05:55",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Dugga Elo",
-    filepath: "/Songs/03_Bengali SONG/Dugga Elo-(Mr-Jat.in).mp3",
+    filepath: "Songs/03_Bengali SONG/Dugga Elo-(Mr-Jat.in).mp3",
     coverPath: "",
     duration: "02:25",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Dushtu Kokil",
-    filepath: "/Songs/03_Bengali SONG/Dushtu Kokil Dake Re Ku Ku-(Mr-Jat.in).mp3",
+    filepath: "Songs/03_Bengali SONG/Dushtu Kokil Dake Re Ku Ku-(Mr-Jat.in).mp3",
     coverPath: "",
     duration: "03:30",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Gulbahar _ গুলবাহার",
-    filepath: "/Songs/03_Bengali SONG/Gulbahar _ গুলবাহার _ Ishaan এর Gaan _ Shuvendu Das Shuvo _ Official Music Video(M4A_128K) (1).m4a",
+    filepath: "Songs/03_Bengali SONG/Gulbahar _ গুলবাহার _ Ishaan এর Gaan _ Shuvendu Das Shuvo _ Official Music Video(M4A_128K) (1).m4a",
     coverPath: "",
     duration: "04:23",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Laage Ura Ura",
-    filepath: "/Songs/03_Bengali SONG/Laage Ura Ura (Toofan) - 320Kbps-(Mr-Jat.in).mp3",
+    filepath: "Songs/03_Bengali SONG/Laage Ura Ura (Toofan) - 320Kbps-(Mr-Jat.in).mp3",
     coverPath: "",
     duration: "02:56",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
     songname: "Long Distance Love.mp3",
-    filepath: "/Songs/03_Bengali SONG/Long Distance Love.mp3",
+    filepath: "Songs/03_Bengali SONG/Long Distance Love.mp3",
     coverPath: "",
     duration: "04:45",
     icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
   },
   {
       songname: "Na Re Na.mp3",
-      filepath: "/Songs/03_Bengali SONG/Na Re Na.mp3",
+      filepath: "Songs/03_Bengali SONG/Na Re Na.mp3",
       coverPath: "",
       duration: "04:04",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },
     {
       songname: "Ohona",
-      filepath: "/Songs/03_Bengali SONG/Ohona _ Subconscious _ Lyrics video(M4A_128K).m4a",
+      filepath: "Songs/03_Bengali SONG/Ohona _ Subconscious _ Lyrics video(M4A_128K).m4a",
       coverPath: "",
       duration: "04:45",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },
     {
       songname: "Oporadhi",
-      filepath: "/Songs/03_Bengali SONG/Oporadhi-(Mr-Jat.in).mp3",
+      filepath: "Songs/03_Bengali SONG/Oporadhi-(Mr-Jat.in).mp3",
       coverPath: "",
       duration: "05:27",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },
     {
       songname: "Parbo Na",
-      filepath: "/Songs/03_Bengali SONG/Parbo Na - Arijit Singh.mp3",
+      filepath: "Songs/03_Bengali SONG/Parbo Na - Arijit Singh.mp3",
       coverPath: "",
       duration: "04:36",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },
     {
       songname: "Prokritir ai sundorjo",
-      filepath: "/Songs/03_Bengali SONG/Prokritir ai sundorjo.mp3",
+      filepath: "Songs/03_Bengali SONG/Prokritir ai sundorjo.mp3",
       coverPath: "",
       duration: "03:44",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },
     {
       songname: "Zara zara",
-      filepath: "/Songs/03_Bengali SONG/Zara zara.mp3",
+      filepath: "Songs/03_Bengali SONG/Zara zara.mp3",
       duration: "03:45",
       icon: '<i class="timeStampPlay fa-regular fa-circle-play"></i>',
     },

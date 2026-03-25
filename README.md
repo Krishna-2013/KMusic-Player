@@ -16,14 +16,14 @@ A Spotify-inspired music player web app built for learning frontend development.
 https://krishna-2013.github.io/amazon-clone-ui/
 
 ## 🛠️ Tech Stack
-HTML5
-CSS3
-JavaScript (Vanilla JS)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
 ## 🎯 Purpose
 
-KMusic Player is a personal project inspired by the design of Spotify.
-It helps practice UI/UX, DOM manipulation, and interactive web development.
+* KMusic Player is a personal project inspired by the design of Spotify.
+* It helps practice UI/UX, DOM manipulation, and interactive web development.
 
 ## 📸 Preview
 
